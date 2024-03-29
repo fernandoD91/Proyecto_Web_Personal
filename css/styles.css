@@ -6,6 +6,7 @@
     --celeste: #00b4fc;
     --cyan: #17f9ff;
     --amarillo:#FFFF00;
+    --blanco: #ffffff;
 }
 
 .negro{color: #000000}
@@ -15,6 +16,7 @@
 .celeste {color: #00b4fc; }
 .cyan {color: #17f9ff; }
 .amarillo{color:#FFFF00;}
+.blanco{color: #ffffff;}
 
 /* <uniquifier>: Use a unique and descriptive class name (regular,bold) */
 /* <weight>: Use a value from 200 to 1000(400,700) */
