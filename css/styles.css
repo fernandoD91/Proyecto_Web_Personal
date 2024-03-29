@@ -1,3 +1,21 @@
+:root{
+    --negro: #000000;
+    --azulOscuro: #001449;
+    --azulNormal: #012677;
+    --azulClaro: #005bc5;
+    --celeste: #00b4fc;
+    --cyan: #17f9ff;
+    --amarillo:#FFFF00;
+}
+
+.negro{color: #000000}
+.azulOscuro{color: #001449; }
+.azulNormal {color: #012677; }
+.azulClaro {color: #005bc5; }
+.celeste {color: #00b4fc; }
+.cyan {color: #17f9ff; }
+.amarillo{color:#FFFF00;}
+
 html{
     font-size: 62.5%;
 }
