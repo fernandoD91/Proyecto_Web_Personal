@@ -99,3 +99,20 @@ body{
   color: var(--negro);
 }
 
+.hero{
+  background-image: url(../img/cibersecurity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  position: relative;
+  padding: 2rem;
+}
+
+.contenido-hero{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
