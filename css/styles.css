@@ -299,3 +299,10 @@ h3, p{
 .campo textarea{
   height: 20rem;
 }
+
+/**footer**/
+.footer{
+  font-weight: 700;
+  padding: 0.6rem;
+  background-image: linear-gradient(to top right, var(--azulNormal) 20%, var(--celeste) 100%);
+}
