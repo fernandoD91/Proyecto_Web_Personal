@@ -125,18 +125,49 @@
         </div> <!-- cierre div .servicios -->
 
         <section>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-address-book" width="32"
-            height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#005bc5" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
-            <path d="M10 16h6" />
-            <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-            <path d="M4 8h3" />
-            <path d="M4 12h3" />
-            <path d="M4 16h3" />
-        </svg>
-        <h2>Contacto</h2>
+            <div class="contacto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-address-book" width="35"
+                height="35" viewBox="0 0 24 24" stroke-width="1.8" stroke="#005bc5" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
+                <path d="M10 16h6" />
+                <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M4 8h3" />
+                <path d="M4 12h3" />
+                <path d="M4 16h3" />
+            </svg>
+            <h2 class="h2-contacto">Contacto</h2>
+            </div>
+
+            <form action="" class="formulario sombra">
+                <fieldset>
+                    <legend>Completa el formulario</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input class="input-text" type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Teléfono</label>
+                            <input class="input-text" type="tel" name="" id="telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input class="input-text" type="email" name="" id="email">
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="input-text" name="mensaje" id="mensaje"></textarea>
+                        </div>
+                    </div> <!-- Contnedor de campos -->
+
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
 

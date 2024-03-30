@@ -167,7 +167,9 @@ h3, p{
   border: 0.1rem solid #000000;
   text-shadow: 2px 2px 2px #000000;
 }
-
+.boton:hover{
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   .boton{
     width: auto;
@@ -210,4 +212,59 @@ h3, p{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/**Contacto**/
+.contacto{
+  text-align: center;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.h2-contacto{
+  display: inline;
+}
+.formulario{
+  background-color: #012677;
+  width: min(70rem, 100%);
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 2rem;
+    /* display: grid; */ 
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+.formulario fieldset{
+  border: none;
+}
+.formulario legend{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  color: var(--blanco);
+}
+
+.contenedor-campos{
+
+}
+.campo{
+  margin-bottom: 1rem;
+}
+.campo label{
+  margin-bottom: .6rem;
+  display: block;
+  color: var(--blanco);
+  font-size: 2rem;
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+}
+.input-text{
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: "Andika", sans-serif;
+  width: 100%;
 }
