@@ -87,8 +87,11 @@ h3, p{
   background-color: var(--azulOscuro);
 }
 
-.navegacion-principal{
+.contenedor-centrado{
   width: 60%;
+  margin: 0 auto;
+}
+.navegacion-principal{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -121,6 +124,7 @@ h3, p{
   height: 45rem;
   position: relative;
   padding: 2rem;
+  margin-bottom: 5rem;
 }
 
 .contenido-hero{
@@ -169,4 +173,13 @@ h3, p{
   .boton{
     width: auto;
   }
+}
+
+.sombra-fondoBlanco{
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
 }
