@@ -8,7 +8,7 @@
     --amarillo:#FFFF00;
     --blanco: #ffffff;
 }
-
+/* Paleta de colores a utilizar aun no definidos 100% */
 .negro{color: #000000}
 .azulOscuro{color: #001449; }
 .azulNormal {color: #012677; }
@@ -53,7 +53,7 @@
   
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* hack para box model */
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -63,7 +63,7 @@ body{
     font-size: 16px; /* Con esto logramos que 1rem = 10px*/
 }
 
-
+/* tipografia de los heading */
 h1{
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
