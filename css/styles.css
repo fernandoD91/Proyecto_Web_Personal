@@ -173,6 +173,11 @@ h3, p{
   .boton{
     width: auto;
   }
+
+  .servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .sombra-fondoBlanco{
