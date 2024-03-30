@@ -188,3 +188,23 @@ h3, p{
   border-radius: 1rem;
   padding: 1rem;
 }
+
+.servicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicio p{
+  line-height: 3rem;
+  text-align: center;
+}
+
+.iconos{
+  background-color: #FFFF00;
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
